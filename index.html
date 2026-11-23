@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валерия Давидович — Веб-дизайнер</title>
+    <link rel="stylesheet" href="style.css?v=13">
+</head>
+<body>
+ 
+    <!-- ШАПКА С ЛОГОТИПОМ -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo-link">
+                <div class="logo-monogram">
+                    VD
+                    <span class="status-dot"></span>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-first">Valeria</span>
+                    <span class="logo-last">Davidovich</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="#about">О себе</a>
+                <a href="#achievements">Достижения</a>
+                <a href="#works">Работы</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+ 
+    <!-- СЕКЦИЯ 1: ОБЛОЖКА ЖУРНАЛА -->
+    <section class="cover-section">
+        <div class="cover-bg-text">PORTFOLIO</div>
+        <div class="cover-glow-left"></div>
+        <div class="cover-glow-right"></div>
+        <div class="container cover-content">
+            <div class="cover-left">
+                <div class="cover-heading">
+                    <!-- Строка 1: UX UI WEB -->
+                    <div class="cover-tags">
+                        <span>UX</span>
+                        <span>UI</span>
+                        <span>WEB</span>
+                    </div>
+                    <!-- Строка 2: DESIGNER -->
+                    <h1 class="cover-title">DESIGNER</h1>
+                </div>
+                <div class="cover-actions">
+                    <a href="#contact" class="btn-cover btn-cover-primary">
+                        Связаться со мной
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="#about" class="btn-cover btn-cover-outline">О себе</a>
+                </div>
+            </div>
+            <div class="cover-right">
+                <img src="avatar.png" alt="Валерия Давидович" class="cover-photo">
+            </div>
+        </div>
+    </section>
+ 
+    <!-- СЕКЦИЯ 2: КТО Я? + ЭТАПЫ РАБОТЫ -->
+    <section class="about-stages" id="about">
+        <div class="container about-stages-grid">
+            
+            <div class="about-block">
+                <h2 class="section-heading">Кто я?</h2>
+                <div class="about-content">
+                    <!-- Анимированный декор: цветочки и бабочки -->
+                    <svg class="about-decor" viewBox="0 0 200 220" aria-hidden="true">
+                        <defs>
+                            <g id="flower">
+                                <ellipse cx="0" cy="-13" rx="7" ry="13"/>
+                                <ellipse cx="0" cy="-13" rx="7" ry="13" transform="rotate(72)"/>
+                                <ellipse cx="0" cy="-13" rx="7" ry="13" transform="rotate(144)"/>
+                                <ellipse cx="0" cy="-13" rx="7" ry="13" transform="rotate(216)"/>
+                                <ellipse cx="0" cy="-13" rx="7" ry="13" transform="rotate(288)"/>
+                                <circle r="5" style="fill: var(--bg-main)"/>
+                            </g>
+                        </defs>
+ 
+                        <circle class="decor-bg" cx="100" cy="112" r="88"/>
+ 
+                        <g transform="translate(62 150) scale(1.7)">
+                            <g class="decor-flower flower-a"><use href="#flower"/></g>
+                        </g>
+                        <g transform="translate(142 168) scale(1.1)">
+                            <g class="decor-flower flower-b"><use href="#flower"/></g>
+                        </g>
+                        <g transform="translate(128 112) scale(0.8)">
+                            <g class="decor-flower flower-c"><use href="#flower"/></g>
+                        </g>
+                        <g transform="translate(38 96) scale(0.7)">
+                            <g class="decor-flower flower-b"><use href="#flower"/></g>
+                        </g>
+ 
+                        <!-- Бабочка 1 -->
+                        <g transform="translate(132 62)">
+                            <g class="fly fly-a">
+                                <g class="wings">
+                                    <g>
+                                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                                    </g>
+                                    <g transform="scale(-1 1)">
+                                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                                    </g>
+                                </g>
+                                <ellipse class="butterfly-body" cx="0" cy="3" rx="1.8" ry="10"/>
+                                <path class="butterfly-antenna" d="M0 -6 Q-4 -14 -8 -15 M0 -6 Q4 -14 8 -15"/>
+                            </g>
+                        </g>
+ 
+                        <!-- Бабочка 2 -->
+                        <g transform="translate(60 52) scale(0.7)">
+                            <g class="fly fly-b b2">
+                                <g class="wings wings-b">
+                                    <g>
+                                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                                    </g>
+                                    <g transform="scale(-1 1)">
+                                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                                    </g>
+                                </g>
+                                <ellipse class="butterfly-body" cx="0" cy="3" rx="1.8" ry="10"/>
+                                <path class="butterfly-antenna" d="M0 -6 Q-4 -14 -8 -15 M0 -6 Q4 -14 8 -15"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="about-text">
+                        <p>Изначально мой путь в дизайне начинался с графического направления.</p>
+                        <p>Благодаря этому я владею всеми ключевыми инструментами создания визуала: логотипы, фирменный стиль, баннеры, презентации.</p>
+                        <p>Сейчас я активно развиваюсь в веб-дизайне и UX/UI, создавая цифровые продукты.</p>
+                    </div>
+                </div>
+
+                <!-- СТАТИСТИКА -->
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-value"><span class="stat-number" data-target="3">3</span></div>
+                        <div class="stat-label">года в дизайне</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value"><span class="stat-number" data-target="15">15</span><span class="stat-plus">+</span></div>
+                        <div class="stat-label">успешных проектов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value"><span class="stat-number" data-target="8">8</span></div>
+                        <div class="stat-label">освоенных программ</div>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="stages-block">
+                <h2 class="section-heading">Этапы работы</h2>
+                <div class="stages-grid">
+                    <div class="stage-item open">
+                        <button class="stage-head" type="button" aria-expanded="true" aria-controls="stage-1">
+                            <span class="stage-num">01</span>
+                            <h4>Знакомство</h4>
+                            <span class="stage-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div class="stage-body" id="stage-1">
+                            <div class="stage-body-inner">
+                                <p>Короткий созвон или переписка: узнаю о вашем бизнесе, целях и ожиданиях. Рассказываю, как строится работа, и отвечаю на вопросы.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="stage-item">
+                        <button class="stage-head" type="button" aria-expanded="false" aria-controls="stage-2">
+                            <span class="stage-num">02</span>
+                            <h4>Согласование КП</h4>
+                            <span class="stage-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div class="stage-body" id="stage-2">
+                            <div class="stage-body-inner">
+                                <p>Обсуждаем объём работ, сроки и стоимость. Фиксируем всё в коммерческом предложении, чтобы у обеих сторон было чёткое понимание результата.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="stage-item">
+                        <button class="stage-head" type="button" aria-expanded="false" aria-controls="stage-3">
+                            <span class="stage-num">03</span>
+                            <h4>Бриф</h4>
+                            <span class="stage-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div class="stage-body" id="stage-3">
+                            <div class="stage-body-inner">
+                                <p>Вы заполняете анкету: целевая аудитория, конкуренты, примеры сайтов, которые нравятся, пожелания по стилю и функциям. На этой основе я собираю концепцию.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="stage-item">
+                        <button class="stage-head" type="button" aria-expanded="false" aria-controls="stage-4">
+                            <span class="stage-num">04</span>
+                            <h4>Работа над проектом</h4>
+                            <span class="stage-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div class="stage-body" id="stage-4">
+                            <div class="stage-body-inner">
+                                <p>Прототип, структура, дизайн-концепция и итоговые макеты. Показываю промежуточные результаты, собираю правки и довожу всё до нужного уровня.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="stage-item">
+                        <button class="stage-head" type="button" aria-expanded="false" aria-controls="stage-5">
+                            <span class="stage-num">05</span>
+                            <h4>Коммерческое предложение</h4>
+                            <span class="stage-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div class="stage-body" id="stage-5">
+                            <div class="stage-body-inner">
+                                <p>Финальное предложение с составом работ и стоимостью. Подтверждаем детали и переходим к оформлению сотрудничества.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="stage-item">
+                        <button class="stage-head" type="button" aria-expanded="false" aria-controls="stage-6">
+                            <span class="stage-num">06</span>
+                            <h4>Сдача проекта</h4>
+                            <span class="stage-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div class="stage-body" id="stage-6">
+                            <div class="stage-body-inner">
+                                <p>Передаю готовые макеты и материалы, объясняю, как с ними работать. Остаюсь на связи, если появятся вопросы после сдачи.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </section>
+ 
+    <!-- СЕКЦИЯ 3: МОИ ДОСТИЖЕНИЯ -->
+    <section class="achievements" id="achievements">
+ 
+        <!-- Летающие бабочки поверх секции -->
+        <div class="ach-butterflies" aria-hidden="true">
+            <svg class="ach-butterfly ab1" viewBox="-30 -28 60 60">
+                <g class="wings">
+                    <g>
+                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                    </g>
+                    <g transform="scale(-1 1)">
+                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                    </g>
+                </g>
+                <ellipse class="butterfly-body" cx="0" cy="3" rx="1.8" ry="10"/>
+                <path class="butterfly-antenna" d="M0 -6 Q-4 -14 -8 -15 M0 -6 Q4 -14 8 -15"/>
+            </svg>
+ 
+            <svg class="ach-butterfly ab2 b2" viewBox="-30 -28 60 60">
+                <g class="wings wings-b">
+                    <g>
+                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                    </g>
+                    <g transform="scale(-1 1)">
+                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                    </g>
+                </g>
+                <ellipse class="butterfly-body" cx="0" cy="3" rx="1.8" ry="10"/>
+                <path class="butterfly-antenna" d="M0 -6 Q-4 -14 -8 -15 M0 -6 Q4 -14 8 -15"/>
+            </svg>
+ 
+            <svg class="ach-butterfly ab3" viewBox="-30 -28 60 60">
+                <g class="wings">
+                    <g>
+                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                    </g>
+                    <g transform="scale(-1 1)">
+                        <path class="wing-top" d="M0 0 C6 -18 26 -24 28 -10 C30 2 12 5 0 0Z"/>
+                        <path class="wing-bot" d="M0 0 C10 4 24 12 17 24 C10 30 2 14 0 0Z"/>
+                    </g>
+                </g>
+                <ellipse class="butterfly-body" cx="0" cy="3" rx="1.8" ry="10"/>
+                <path class="butterfly-antenna" d="M0 -6 Q-4 -14 -8 -15 M0 -6 Q4 -14 8 -15"/>
+            </svg>
+        </div>
+        
+        <div class="achievements-wrap">
+            <h2 class="section-heading">Мои достижения</h2>
+ 
+            <div class="achievements-list">
+ 
+                <!-- Карточка 1: спереди иконка и заголовок, сзади описание -->
+                <article class="achievement-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-face card-front">
+                            <div class="achievement-img">
+                                <div class="achievement-icon">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                                </div>
+                            </div>
+                            <div class="achievement-body">
+                                <h3>Разработка визуала</h3>
+                                <span class="flip-hint">Перевернуть
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-face card-back">
+                            <h3>Разработка визуала</h3>
+                            <p>Создала серию графических материалов, баннеров и презентаций в едином эстетичном стиле для учебных проектов.</p>
+                        </div>
+                    </div>
+                </article>
+ 
+                <article class="achievement-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-face card-front">
+                            <div class="achievement-img">
+                                <div class="achievement-icon">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></svg>
+                                </div>
+                            </div>
+                            <div class="achievement-body">
+                                <h3>Создание веб-сайтов</h3>
+                                <span class="flip-hint">Перевернуть
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-face card-back">
+                            <h3>Создание веб-сайтов</h3>
+                            <p>Разработала концепты и макеты сайтов-визиток, успешно адаптировав их под мобильные устройства и планшеты.</p>
+                        </div>
+                    </div>
+                </article>
+ 
+                <article class="achievement-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-face card-front">
+                            <div class="achievement-img">
+                                <div class="achievement-icon">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+                                </div>
+                            </div>
+                            <div class="achievement-body">
+                                <h3>Проектирование UI/UX</h3>
+                                <span class="flip-hint">Перевернуть
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-face card-back">
+                            <h3>Проектирование UI/UX</h3>
+                            <p>Спроектировала несколько интерактивных прототипов в Figma, опираясь на современные тренды и удобство юзабилити.</p>
+                        </div>
+                    </div>
+                </article>
+ 
+                <article class="achievement-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-face card-front">
+                            <div class="achievement-img">
+                                <div class="achievement-icon">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+                                </div>
+                            </div>
+                            <div class="achievement-body">
+                                <h3>Запуск портфолио</h3>
+                                <span class="flip-hint">Перевернуть
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-face card-back">
+                            <h3>Запуск портфолио</h3>
+                            <p>Разработала и успешно запустила собственный адаптивный сайт-визитку, объединив в нем свои лучшие проекты и навыки.</p>
+                        </div>
+                    </div>
+                </article>
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <!-- СЕКЦИЯ 4: ТЕХНОЛОГИИ, КОТОРЫМИ Я ВЛАДЕЮ -->
+    <section class="tech-section" id="tech">
+        <div class="container tech-wrap">
+            <h2 class="section-heading light">Технологии, которыми я владею</h2>
+            <p class="tech-intro">Нажмите на карточку, чтобы посмотреть небольшую интерактивную демонстрацию.</p>
+
+            <div class="tech-grid">
+                <div class="tech-card" data-tech="audio">
+                    <div class="tech-card-icon audio-mark" aria-hidden="true">♫</div>
+                    <div class="tech-card-content">
+                        <h3 class="tech-card-title">Звуковые сайты</h3>
+                        <p class="tech-card-text">Подключаю музыку и звуковые эффекты к страницам с помощью тега audio. Делаю плееры с выбором мелодии, паузой и регулировкой громкости.</p>
+                        <button class="tech-card-btn" type="button" aria-label="Посмотреть демо: Звуковые сайты">Посмотреть демо <span aria-hidden="true">↗</span></button>
+                    </div>
+                </div>
+                <div class="tech-card" data-tech="html">
+                    <div class="tech-card-icon" aria-hidden="true"><b>&lt;/&gt;</b></div>
+                    <div class="tech-card-content">
+                        <h3 class="tech-card-title">HTML &amp; CSS</h3>
+                        <p class="tech-card-text">Верстаю структуру страниц и оформляю её стилями. Использую Flexbox и Grid и делаю макеты, которые подстраиваются под экран.</p>
+                        <button class="tech-card-btn" type="button" aria-label="Посмотреть демо: HTML &amp; CSS">Посмотреть демо <span aria-hidden="true">↗</span></button>
+                    </div>
+                </div>
+                <div class="tech-card" data-tech="javascript">
+                    <div class="tech-card-icon js-mark" aria-hidden="true">JS</div>
+                    <div class="tech-card-content">
+                        <h3 class="tech-card-title">JavaScript</h3>
+                        <p class="tech-card-text">Оживляю страницы: делаю раскрывающиеся блоки, счётчики, модальные окна и анимации, которые запускаются по клику и при прокрутке.</p>
+                        <button class="tech-card-btn" type="button" aria-label="Посмотреть демо: JavaScript">Посмотреть демо <span aria-hidden="true">↗</span></button>
+                    </div>
+                </div>
+                <div class="tech-card" data-tech="photoshop">
+                    <div class="tech-card-icon ps-mark" aria-hidden="true">Ps</div>
+                    <div class="tech-card-content">
+                        <h3 class="tech-card-title">Adobe Photoshop</h3>
+                        <p class="tech-card-text">Обрабатываю фотографии и собираю визуальные композиции. Настраиваю яркость, контраст и цвет, готовлю изображения для сайтов и баннеров.</p>
+                        <button class="tech-card-btn" type="button" aria-label="Посмотреть демо: Adobe Photoshop">Посмотреть демо <span aria-hidden="true">↗</span></button>
+                    </div>
+                </div>
+                <div class="tech-card" data-tech="illustrator">
+                    <div class="tech-card-icon ai-mark" aria-hidden="true">Ai</div>
+                    <div class="tech-card-content">
+                        <h3 class="tech-card-title">Adobe Illustrator</h3>
+                        <p class="tech-card-text">Рисую векторную графику: иконки, логотипы и геометрические иллюстрации, которые остаются чёткими при любом масштабе.</p>
+                        <button class="tech-card-btn" type="button" aria-label="Посмотреть демо: Adobe Illustrator">Посмотреть демо <span aria-hidden="true">↗</span></button>
+                    </div>
+                </div>
+                <div class="tech-card" data-tech="responsive">
+                    <div class="tech-card-icon responsive-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+                    <div class="tech-card-content">
+                        <h3 class="tech-card-title">Responsive Design</h3>
+                        <p class="tech-card-text">Адаптирую сайты под компьютеры, планшеты и телефоны. Перестраиваю сетку и размеры блоков с помощью медиазапросов.</p>
+                        <button class="tech-card-btn" type="button" aria-label="Посмотреть демо: Responsive Design">Посмотреть демо <span aria-hidden="true">↗</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-modal" id="techModal" aria-hidden="true">
+            <div class="modal-overlay" data-close-modal></div>
+            <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="techModalTitle">
+                <button class="modal-close" type="button" aria-label="Закрыть окно">×</button>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- СЕКЦИЯ 5: СОТРУДНИЧЕСТВО -->
+    <section class="cooperation-section" id="contact">
+        <div class="container cooperation-content">
+            <div class="cooperation-left">
+                <h2 class="section-heading light">Сотрудничество</h2>
+                <p class="cooperation-text">Хотите уникальный сайт с нуля или редизайн уже имеющегося проекта?</p>
+                <p class="cooperation-text">Напишите мне и я создам для вашего бизнеса уникальный сайт!</p>
+                
+                <div class="qr-codes">
+                    <div class="qr-item">
+                        <div class="qr-placeholder">QR</div>
+                        <small>Telegram</small>
+                    </div>
+                    <div class="qr-item">
+                        <div class="qr-placeholder">QR</div>
+                        <small>Instagram</small>
+                    </div>
+                </div>
+            </div>
+            <div class="cooperation-right">
+                <img src="avatar.png" alt="Валерия" class="cooperation-photo">
+            </div>
+        </div>
+    </section>
+ 
+    <script>
+        // 1. Этапы работы: по клику раскрывается описание
+        (function () {
+            var items = document.querySelectorAll('.stage-item');
+            items.forEach(function (item) {
+                var head = item.querySelector('.stage-head');
+                head.addEventListener('click', function () {
+                    var isOpen = item.classList.contains('open');
+                    items.forEach(function (other) {
+                        other.classList.remove('open');
+                        other.querySelector('.stage-head').setAttribute('aria-expanded', 'false');
+                    });
+                    if (!isOpen) {
+                        item.classList.add('open');
+                        head.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+        })();
+ 
+        // 2. Достижения: переворот карточек на телефоне
+        (function () {
+            var hasHover = window.matchMedia('(hover: hover)');
+            var cards = document.querySelectorAll('.achievement-card');
+            cards.forEach(function (card) {
+                card.addEventListener('click', function () {
+                    if (hasHover.matches) return;
+                    card.classList.toggle('is-flipped');
+                });
+            });
+        })();
+
+        // ==========================================================
+        // 3. НОВЫЙ КОД: Анимация счетчика цифр при скролле
+        // ==========================================================
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        const statsSection = document.querySelector('.about-stats');
+        let isAnimated = false; 
+
+        if (statsSection) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !isAnimated) {
+                        isAnimated = true; 
+                        const counters = document.querySelectorAll('.stat-number');
+                        counters.forEach(counter => {
+                            const target = +counter.getAttribute('data-target'); 
+                            animateValue(counter, 0, target, 1500); // 1500 = 1.5 секунды анимации
+                        });
+                    }
+                });
+            }, { threshold: 0.4 }); // Запуск, когда видно 40% блока
+
+            observer.observe(statsSection);
+        }
+        // 4. Интерактивные демонстрации технологий
+        (function () {
+            const modal = document.getElementById('techModal');
+            if (!modal) return;
+
+            const modalBody = modal.querySelector('.modal-body');
+            const closeBtn = modal.querySelector('.modal-close');
+            const cards = document.querySelectorAll('.tech-card');
+            let lastFocusedElement = null;
+
+            const demos = {
+                audio: {
+    title: 'Звуковые сайты — мультяшный музыкальный плеер',
+    description: 'Выберите любимую мультяшную мелодию, включите её и настройте громкость.',
+    markup: `
+        <div class="demo-audio-player">
+            <div class="audio-art">
+                <span>♫</span>
+                <small>МУЛЬТЯШНАЯ КОЛЛЕКЦИЯ</small>
+                <b id="audioTrackName">Шрек</b>
+            </div>
+
+            <div class="audio-controls">
+                <label>
+                    Выберите мелодию:
+                    <select id="audioTrack">
+                        <option value="shrek">Шрек</option>
+                        <option value="fixies">Фиксики</option>
+                        <option value="winx">Клуб Винкс</option>
+                        <option value="pony">Мой маленький пони</option>
+                    </select>
+                </label>
+
+                <audio id="cartoonAudio" preload="metadata"></audio>
+
+                <div class="audio-buttons">
+                    <button class="demo-action" id="audioPlay" type="button">
+                        ▶ Воспроизвести
+                    </button>
+
+                    <button class="demo-action secondary" id="audioStop" type="button">
+                        ■ Остановить
+                    </button>
+                </div>
+
+                <label class="audio-volume">
+                    Громкость:
+                    <input id="audioVolume" type="range"
+                           min="0" max="100" value="65">
+                    <span id="audioVolumeValue">65%</span>
+                </label>
+
+                <p id="audioStatus">Выберите мелодию и нажмите «Воспроизвести».</p>
+            </div>
+        </div>
+    `
+},
+
+html: {
+    title: 'HTML & CSS — комната мечты',
+    description: 'Создайте собственный интерьер: меняйте цвета, добавляйте декор и настраивайте освещение. Все изменения сразу видны в комнате.',
+    markup: `
+        <div class="room-builder">
+
+            <div class="room-scene" id="roomScene">
+
+                <div class="room-wall" id="roomWall">
+
+                    <div class="room-window">
+                        <div class="room-window-sky"></div>
+                        <div class="room-window-cross"></div>
+                    </div>
+
+                    <div class="room-picture" id="roomPicture">
+                        <span>✿</span>
+                    </div>
+
+                    <div class="room-lamp" id="roomLamp">
+                        <div class="room-lamp-shade"></div>
+                        <div class="room-lamp-stand"></div>
+                        <div class="room-lamp-base"></div>
+                    </div>
+
+                    <div class="room-plant" id="roomPlant">
+                        <span>🌿</span>
+                        <div class="room-plant-pot"></div>
+                    </div>
+
+                    <div class="room-bed">
+                        <div class="room-pillow"></div>
+                        <div class="room-blanket" id="roomBlanket"></div>
+                        <div class="room-bed-base"></div>
+                        <div class="room-bed-legs"></div>
+                    </div>
+
+                    <div class="room-rug"></div>
+
+                    <div class="room-floor" id="roomFloor"></div>
+
+                    <div class="room-light-effect" id="roomLightEffect"></div>
+                </div>
+
+            </div>
+
+            <div class="room-panel">
+
+                <h4>Настрой свою комнату</h4>
+
+                <label>
+                    Цвет стен
+                    <select id="roomWallColor">
+                        <option value="pink">Нежно-розовый</option>
+                        <option value="cream">Кремовый</option>
+                        <option value="lavender">Лавандовый</option>
+                        <option value="mint">Мятный</option>
+                        <option value="blue">Голубой</option>
+                    </select>
+                </label>
+
+                <label>
+                    Цвет пола
+                    <select id="roomFloorColor">
+                        <option value="wood">Светлое дерево</option>
+                        <option value="white">Белый</option>
+                        <option value="dark">Тёмное дерево</option>
+                        <option value="pink">Розовый</option>
+                    </select>
+                </label>
+
+                <label>
+                    Постельное бельё
+                    <select id="roomBedColor">
+                        <option value="rose">Розовое</option>
+                        <option value="lilac">Сиреневое</option>
+                        <option value="blue">Голубое</option>
+                        <option value="mint">Мятное</option>
+                        <option value="cream">Кремовое</option>
+                    </select>
+                </label>
+
+                <label>
+    Цвет коврика
+    <select id="roomRugColor">
+        <option value="rose">Розовый</option>
+        <option value="lilac">Сиреневый</option>
+        <option value="blue">Голубой</option>
+        <option value="mint">Мятный</option>
+        <option value="cream">Бежевый</option>
+    </select>
+</label>
+
+                <div class="room-options">
+                    <label class="room-check">
+                        <input type="checkbox" id="roomShowPlant" checked>
+                        Добавить растение 🌿
+                    </label>
+
+                    <label class="room-check">
+                        <input type="checkbox" id="roomShowPicture" checked>
+                        Повесить картину 🖼️
+                    </label>
+
+                    <label class="room-check">
+                        <input type="checkbox" id="roomShowLamp" checked>
+                        Включить лампу 💡
+                    </label>
+                </div>
+
+                <button class="demo-action" id="roomReset">
+                    Вернуть исходный интерьер
+                </button>
+
+            </div>
+        </div>
+    `
+},
+
+javascript: {
+    title: 'JavaScript — интерактивная погода',
+    description: 'Выберите погодное явление и наблюдайте, как меняется окружающая среда. Все эффекты создаются JavaScript непосредственно внутри окна.',
+    markup: `
+        <div class="weather-demo">
+            <div class="weather-buttons">
+                <button class="weather-btn active" data-weather="snow">❄️ Снег</button>
+                <button class="weather-btn" data-weather="rain">🌧️ Дождь</button>
+                <button class="weather-btn" data-weather="sun">☀️ Солнце</button>
+                <button class="weather-btn" data-weather="rainbow">🌈 Радуга</button>
+                <button class="weather-btn" data-weather="cloud">☁️ Облака</button>
+                <button class="weather-btn" data-weather="storm">⛈️ Гроза</button>
+            </div>
+
+            <div class="weather-scene snow" id="weatherScene">
+                <div class="weather-sun"></div>
+                <div class="weather-rainbow"></div>
+                <div class="weather-cloud cloud-one">☁️</div>
+                <div class="weather-cloud cloud-two">☁️</div>
+                <div class="weather-effects" id="weatherEffects"></div>
+                <div class="weather-lightning"></div>
+                <div class="weather-ground"></div>
+            </div>
+
+            <p class="weather-status" id="weatherStatus">
+                ❄️ За окном идёт снег
+            </p>
+
+            <button class="demo-action secondary" id="weatherReset">
+                Сбросить погоду
+            </button>
+        </div>
+    `
+},
+
+
+photoshop: {
+    title: 'Adobe Photoshop — интерактивный фоторедактор',
+    description: 'Выберите фотографию или загрузите свою. Настройте яркость, контрастность и цвет, а затем сравните результат с оригиналом.',
+    markup: `
+        <div class="ps-editor">
+
+            <div class="ps-toolbar">
+                <label class="ps-select-label">
+                    Выберите фотографию
+<select id="psPhotoSelect">
+    <option value="./landscape.jpg">Пейзаж</option>
+    <option value="./flower.jpg">Цветы</option>
+    <option value="./portrait.jpg">Портрет</option>
+</select>
+                </label>
+
+                <label class="ps-upload">
+                    Загрузить своё фото
+                    <input type="file" id="psUpload" accept="image/*">
+                </label>
+            </div>
+
+            <div class="ps-stage">
+<img src="./landscape.jpg" id="psBefore" alt="Исходная фотография">
+
+<div class="ps-after-wrap" id="psAfterWrap">
+    <img src="./landscape.jpg" id="psAfter" alt="Обработанная фотография">
+</div>
+
+                <span class="ps-tag ps-tag-before">ДО</span>
+                <span class="ps-tag ps-tag-after">ПОСЛЕ</span>
+                <div class="ps-divider" id="psDivider"></div>
+            </div>
+
+            <label class="ps-compare-label">
+                Сравнение до и после
+                <input type="range" id="psCompare" min="0" max="100" value="50">
+            </label>
+
+            <div class="ps-controls">
+                <label>
+                    Яркость
+                    <span id="psBrightnessValue">100%</span>
+                    <input type="range" id="psBrightness" min="50" max="150" value="100">
+                </label>
+
+                <label>
+                    Контрастность
+                    <span id="psContrastValue">100%</span>
+                    <input type="range" id="psContrast" min="50" max="200" value="100">
+                </label>
+
+                <label>
+                    Насыщенность
+                    <span id="psSaturationValue">100%</span>
+                    <input type="range" id="psSaturation" min="0" max="200" value="100">
+                </label>
+
+                <label>
+                    Чёрно-белый эффект
+                    <span id="psGrayValue">0%</span>
+                    <input type="range" id="psGray" min="0" max="100" value="0">
+                </label>
+
+                <label>
+                    Сепия
+                    <span id="psSepiaValue">0%</span>
+                    <input type="range" id="psSepia" min="0" max="100" value="0">
+                </label>
+            </div>
+
+            <button type="button" class="ps-reset" id="psReset">
+                Сбросить обработку
+            </button>
+
+            <p class="ps-status" id="psStatus">
+                Выберите фотографию и попробуйте изменить её.
+            </p>
+
+        </div>
+    `
+},
+
+
+illustrator: {
+    title: 'Adobe Illustrator — векторный редактор',
+    description: 'Создавайте собственные иллюстрации из геометрических фигур. Добавляйте объекты, перемещайте их, меняйте цвета и сохраняйте результат в SVG.',
+    markup: `
+        <div class="ai-editor">
+
+            <div class="ai-toolbar">
+                <div class="ai-toolbar-group">
+                    <span>Добавить объект:</span>
+                    <button type="button" class="ai-tool" data-add="circle">● Круг</button>
+                    <button type="button" class="ai-tool" data-add="rect">■ Квадрат</button>
+                    <button type="button" class="ai-tool" data-add="triangle">▲ Треугольник</button>
+                    <button type="button" class="ai-tool" data-add="star">★ Звезда</button>
+                    <button type="button" class="ai-tool" data-add="text">T Текст</button>
+                </div>
+            </div>
+
+            <div class="ai-workspace">
+
+                <div class="ai-canvas-area">
+                    <div class="ai-canvas-heading">
+                        <span>Рабочая область</span>
+                        <span>600 × 380 px</span>
+                    </div>
+
+                    <svg id="aiCanvas" viewBox="0 0 600 380"
+                         xmlns="http://www.w3.org/2000/svg"
+                         role="img" aria-label="Холст векторного редактора">
+                    </svg>
+
+                    <p class="ai-hint">
+                        Нажмите на фигуру, чтобы выбрать её.
+                        Перетаскивайте объекты мышкой.
+                    </p>
+                </div>
+
+                <aside class="ai-panel">
+
+                    <div class="ai-panel-section">
+                        <h4>Готовые композиции</h4>
+                        <button type="button" class="ai-template" data-template="poster">Геометрический постер</button>
+                        <button type="button" class="ai-template" data-template="logo">Логотип</button>
+                        <button type="button" class="ai-template" data-template="landscape">Пейзаж</button>
+                    </div>
+
+                    <div class="ai-panel-section">
+                        <h4>Настройки объекта</h4>
+
+                        <label>
+                            Заливка
+                            <input type="color" id="aiFill" value="#d48585">
+                        </label>
+
+                        <label>
+                            Цвет обводки
+                            <input type="color" id="aiStroke" value="#593c49">
+                        </label>
+
+                        <label>
+                            Толщина обводки
+                            <input type="range" id="aiStrokeWidth" min="0" max="12" value="0">
+                            <span id="aiStrokeValue">0 px</span>
+                        </label>
+
+                        <label>
+                            Размер
+                            <input type="range" id="aiSize" min="40" max="180" value="100">
+                            <span id="aiSizeValue">100%</span>
+                        </label>
+
+                        <label>
+                            Поворот
+                            <input type="range" id="aiRotation" min="0" max="360" value="0">
+                            <span id="aiRotationValue">0°</span>
+                        </label>
+
+                        <label>
+                            Текст
+                            <input type="text" id="aiText" value="" placeholder="Введите текст">
+                        </label>
+
+                        <button type="button" class="ai-delete" id="aiDelete">
+                            Удалить объект
+                        </button>
+                    </div>
+
+                </aside>
+            </div>
+
+            <div class="ai-bottom">
+                <div class="ai-templates-actions">
+                    <button type="button" class="ai-action secondary" id="aiClear">
+                        Очистить холст
+                    </button>
+                    <button type="button" class="ai-action" id="aiExport">
+                        Скачать SVG
+                    </button>
+                </div>
+                <p id="aiStatus" class="ai-status">
+                    Выберите шаблон или добавьте фигуру.
+                </p>
+            </div>
+
+        </div>
+    `
+},
+
+                responsive: {
+                    title: 'Responsive Design — адаптивный макет',
+                    description: 'Переключайте ширину просмотра и наблюдайте, как сетка карточек перестраивается для разных устройств.',
+                    markup: `<div class="demo-responsive"><div class="responsive-toolbar"><button class="device-btn active" data-device="desktop">Компьютер</button><button class="device-btn" data-device="tablet">Планшет</button><button class="device-btn" data-device="mobile">Телефон</button></div><div class="responsive-stage desktop" id="responsiveStage"><div class="responsive-site"><header>MY PORTFOLIO <span>☰</span></header><div class="responsive-hero"><small>ПРИВЕТ! Я ДИЗАЙНЕР</small><b>Создаю цифровые впечатления</b><p>Дизайн, который работает на разных экранах.</p><button>Мои проекты</button></div><div class="responsive-cards"><i>Проект 01</i><i>Проект 02</i><i>Проект 03</i></div></div></div><p class="responsive-status" id="responsiveStatus">Широкий экран · 3 колонки</p></div>`
+                }
+            };
+
+            function openModal(name, trigger) {
+                const demo = demos[name];
+                if (!demo) return;
+                lastFocusedElement = trigger.querySelector('.tech-card-btn') || trigger;
+                const audioPlayer = modalBody.querySelector('#cartoonAudio');
+
+if (audioPlayer) {
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
+}
+                modalBody.innerHTML = `<h3 class="modal-title" id="techModalTitle">${demo.title}</h3><p class="modal-description">${demo.description}</p>${demo.markup}`;
+                modal.classList.add('active');
+                modal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+                closeBtn.focus();
+                bindDemo(name);
+            }
+
+            function closeModal() {
+                if (window.__stopTechAudio) { window.__stopTechAudio(); window.__stopTechAudio = null; }
+                modal.classList.remove('active');
+                modal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+                modalBody.innerHTML = '';
+                if (lastFocusedElement) lastFocusedElement.focus();
+            }
+
+            cards.forEach(card => {
+                card.addEventListener('click', () => openModal(card.dataset.tech, card));
+            });
+            closeBtn.addEventListener('click', closeModal);
+            modal.querySelector('[data-close-modal]').addEventListener('click', closeModal);
+            document.addEventListener('keydown', event => {
+                if (event.key === 'Escape' && modal.classList.contains('active')) closeModal();
+                if (event.key === 'Tab' && modal.classList.contains('active')) {
+                    const focusable = modal.querySelectorAll('button, input, select, a[href]');
+                    if (!focusable.length) return;
+                    const first = focusable[0], last = focusable[focusable.length - 1];
+                    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+                    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+                }
+            });
+
+            function bindDemo(name) {
+                if (name === 'audio') {
+    const tracks = {
+    shrek: { name: 'Шрек', src: 'shrek-meme-music.mp3' },
+    fixies: { name: 'Фиксики', src: 'nolik-from-fixies.mp3' },
+    winx: { name: 'Клуб Винкс', src: 'vinks.mp3' },
+    pony: { name: 'Мой маленький пони', src: 'pony.mp3' }
+};
+
+    const player = document.getElementById('cartoonAudio');
+    const track = document.getElementById('audioTrack');
+    const play = document.getElementById('audioPlay');
+    const stop = document.getElementById('audioStop');
+    const volume = document.getElementById('audioVolume');
+    const volumeValue = document.getElementById('audioVolumeValue');
+    const status = document.getElementById('audioStatus');
+    const trackName = document.getElementById('audioTrackName');
+
+    function loadTrack() {
+        player.pause();
+        player.src = tracks[track.value].src;
+        player.load();
+
+        trackName.textContent = tracks[track.value].name;
+        play.textContent = '▶ Воспроизвести';
+        status.textContent = 'Выбрана мелодия: ' + tracks[track.value].name;
+    }
+
+    play.addEventListener('click', async () => {
+        if (player.paused) {
+            try {
+                await player.play();
+                play.textContent = 'Ⅱ Пауза';
+                status.textContent = 'Сейчас играет: ' + tracks[track.value].name;
+            } catch (error) {
+                status.textContent = 'Не удалось загрузить мелодию. Проверьте папку audio.';
+            }
+        } else {
+            player.pause();
+            play.textContent = '▶ Продолжить';
+            status.textContent = 'Музыка на паузе.';
+        }
+    });
+
+    stop.addEventListener('click', () => {
+        player.pause();
+        player.currentTime = 0;
+        play.textContent = '▶ Воспроизвести';
+        status.textContent = 'Воспроизведение остановлено.';
+    });
+
+    track.addEventListener('change', loadTrack);
+
+    volume.addEventListener('input', () => {
+        player.volume = volume.value / 100;
+        volumeValue.textContent = volume.value + '%';
+    });
+
+    player.addEventListener('ended', () => {
+        play.textContent = '▶ Воспроизвести';
+        status.textContent = 'Мелодия закончилась.';
+    });
+
+    player.volume = volume.value / 100;
+    loadTrack();
+}
+
+
+if (name === 'html') {
+    const scene = document.getElementById('roomScene');
+    const wall = document.getElementById('roomWall');
+    const floor = document.getElementById('roomFloor');
+    const blanket = document.getElementById('roomBlanket');
+const rug = document.querySelector('.room-rug');
+const rugColor = document.getElementById('roomRugColor');
+    const wallColor = document.getElementById('roomWallColor');
+    const floorColor = document.getElementById('roomFloorColor');
+    const bedColor = document.getElementById('roomBedColor');
+
+    const plant = document.getElementById('roomPlant');
+    const picture = document.getElementById('roomPicture');
+    const lamp = document.getElementById('roomLamp');
+    const lightEffect = document.getElementById('roomLightEffect');
+
+    const showPlant = document.getElementById('roomShowPlant');
+    const showPicture = document.getElementById('roomShowPicture');
+    const showLamp = document.getElementById('roomShowLamp');
+    const reset = document.getElementById('roomReset');
+
+    function updateRoom() {
+        wall.dataset.color = wallColor.value;
+        floor.dataset.color = floorColor.value;
+        blanket.dataset.color = bedColor.value;
+rug.dataset.color = rugColor.value;
+        plant.classList.toggle('room-hidden', !showPlant.checked);
+        picture.classList.toggle('room-hidden', !showPicture.checked);
+        // Лампа всегда остаётся в комнате
+lamp.classList.remove('room-hidden');
+
+// Включаем или выключаем свечение
+scene.classList.toggle('room-lights-on', showLamp.checked);
+lightEffect.classList.toggle('room-hidden', !showLamp.checked);
+    }
+
+    wallColor.addEventListener('change', updateRoom);
+    floorColor.addEventListener('change', updateRoom);
+    bedColor.addEventListener('change', updateRoom);
+rugColor.addEventListener('change', updateRoom);
+    showPlant.addEventListener('change', updateRoom);
+    showPicture.addEventListener('change', updateRoom);
+    showLamp.addEventListener('change', updateRoom);
+
+    reset.addEventListener('click', () => {
+        wallColor.value = 'pink';
+        floorColor.value = 'wood';
+        bedColor.value = 'rose';
+rugColor.value = 'rose';
+        showPlant.checked = true;
+        showPicture.checked = true;
+        showLamp.checked = true;
+
+        updateRoom();
+    });
+
+    updateRoom();
+}
+
+if (name === 'javascript') {
+    const scene = document.getElementById('weatherScene');
+    const effects = document.getElementById('weatherEffects');
+    const status = document.getElementById('weatherStatus');
+    const buttons = modalBody.querySelectorAll('.weather-btn');
+    const reset = document.getElementById('weatherReset');
+
+    const weatherNames = {
+        snow: '❄️ За окном идёт снег',
+        rain: '🌧️ За окном идёт дождь',
+        sun: '☀️ Светит яркое солнце',
+        rainbow: '🌈 На небе появилась радуга',
+        cloud: '☁️ Небо затянули облака',
+        storm: '⛈️ Началась гроза'
+    };
+
+    function createParticles(type) {
+        effects.innerHTML = '';
+
+        let count = 0;
+        let symbol = '';
+
+        if (type === 'snow') {
+            count = 35;
+            symbol = '❄';
+        } else if (type === 'rain' || type === 'storm') {
+            count = 45;
+            symbol = '│';
+        }
+
+        for (let i = 0; i < count; i++) {
+            const particle = document.createElement('span');
+
+            particle.className = 'weather-particle';
+            particle.textContent = symbol;
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 4 + 's';
+            particle.style.animationDuration =
+                (type === 'snow' ? 3 + Math.random() * 4 : 0.6 + Math.random()) + 's';
+
+            effects.appendChild(particle);
+        }
+    }
+
+    function setWeather(type) {
+        scene.className = 'weather-scene ' + type;
+        createParticles(type);
+        status.textContent = weatherNames[type];
+
+        buttons.forEach(button => {
+            button.classList.toggle(
+                'active',
+                button.dataset.weather === type
+            );
+        });
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            setWeather(button.dataset.weather);
+        });
+    });
+
+    reset.addEventListener('click', () => {
+        setWeather('snow');
+    });
+
+    setWeather('snow');
+}
+
+
+if (name === 'photoshop') {
+    const before = document.getElementById('psBefore');
+    const after = document.getElementById('psAfter');
+    const afterWrap = document.getElementById('psAfterWrap');
+    const divider = document.getElementById('psDivider');
+
+    const photoSelect = document.getElementById('psPhotoSelect');
+    const upload = document.getElementById('psUpload');
+    const compare = document.getElementById('psCompare');
+    const status = document.getElementById('psStatus');
+
+    const brightness = document.getElementById('psBrightness');
+    const contrast = document.getElementById('psContrast');
+    const saturation = document.getElementById('psSaturation');
+    const gray = document.getElementById('psGray');
+    const sepia = document.getElementById('psSepia');
+
+    const reset = document.getElementById('psReset');
+
+    let uploadedUrl = null;
+
+function updateCompare() {
+    const value = compare.value;
+    afterWrap.style.clipPath = `inset(0 0 0 ${value}%)`;
+    divider.style.left = value + '%';
+}
+
+    function updateFilters() {
+        const b = brightness.value;
+        const c = contrast.value;
+        const s = saturation.value;
+        const g = gray.value;
+        const sp = sepia.value;
+
+        after.style.filter =
+            `brightness(${b}%) contrast(${c}%) saturate(${s}%) grayscale(${g}%) sepia(${sp}%)`;
+
+        document.getElementById('psBrightnessValue').textContent = b + '%';
+        document.getElementById('psContrastValue').textContent = c + '%';
+        document.getElementById('psSaturationValue').textContent = s + '%';
+        document.getElementById('psGrayValue').textContent = g + '%';
+        document.getElementById('psSepiaValue').textContent = sp + '%';
+    }
+
+    function resetFilters() {
+        brightness.value = 100;
+        contrast.value = 100;
+        saturation.value = 100;
+        gray.value = 0;
+        sepia.value = 0;
+
+        compare.value = 50;
+
+        updateFilters();
+        updateCompare();
+
+        status.textContent = 'Настройки обработки сброшены.';
+    }
+
+function changePhoto(src, message) {
+    before.src = src;
+    after.src = src;
+
+    resetFilters();
+
+    before.onerror = function () {
+        status.textContent = 'Не удалось найти фотографию: ' + src;
+    };
+
+    after.onerror = function () {
+        status.textContent = 'Ошибка загрузки обработанной фотографии.';
+    };
+
+    before.onload = function () {
+        status.textContent = message;
+    };
+}
+
+    photoSelect.addEventListener('change', () => {
+        if (uploadedUrl) {
+            URL.revokeObjectURL(uploadedUrl);
+            uploadedUrl = null;
+        }
+
+        changePhoto(photoSelect.value, 'Выбрана готовая фотография.');
+        upload.value = '';
+    });
+
+    upload.addEventListener('change', () => {
+        const file = upload.files[0];
+
+        if (!file) return;
+
+        if (!file.type.startsWith('image/')) {
+            status.textContent = 'Пожалуйста, выберите файл изображения.';
+            upload.value = '';
+            return;
+        }
+
+        if (uploadedUrl) {
+            URL.revokeObjectURL(uploadedUrl);
+        }
+
+        uploadedUrl = URL.createObjectURL(file);
+
+        changePhoto(uploadedUrl, 'Загружено ваше изображение. Можно начинать обработку.');
+    });
+
+    [brightness, contrast, saturation, gray, sepia].forEach(control => {
+        control.addEventListener('input', updateFilters);
+    });
+
+    compare.addEventListener('input', updateCompare);
+
+    reset.addEventListener('click', resetFilters);
+
+    updateFilters();
+    updateCompare();
+}
+
+
+if (name === 'illustrator') {
+    const canvas = document.getElementById('aiCanvas');
+    const fill = document.getElementById('aiFill');
+    const stroke = document.getElementById('aiStroke');
+    const strokeWidth = document.getElementById('aiStrokeWidth');
+    const size = document.getElementById('aiSize');
+    const rotation = document.getElementById('aiRotation');
+    const textInput = document.getElementById('aiText');
+
+    const strokeValue = document.getElementById('aiStrokeValue');
+    const sizeValue = document.getElementById('aiSizeValue');
+    const rotationValue = document.getElementById('aiRotationValue');
+    const status = document.getElementById('aiStatus');
+
+    const deleteButton = document.getElementById('aiDelete');
+    const clearButton = document.getElementById('aiClear');
+    const exportButton = document.getElementById('aiExport');
+
+    if (!canvas) return;
+
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+
+    let selected = null;
+    let dragging = null;
+
+    // Создание SVG-элемента
+    function createSvgElement(tag, attributes = {}) {
+        const element = document.createElementNS(SVG_NS, tag);
+
+        Object.entries(attributes).forEach(([key, value]) => {
+            element.setAttribute(key, value);
+        });
+
+        return element;
+    }
+
+    // Настройка внешнего вида объекта
+    function styleObject(element, color, border = '#593c49', width = 0) {
+        element.setAttribute('fill', color);
+        element.setAttribute('stroke', border);
+        element.setAttribute('stroke-width', width);
+        element.setAttribute('stroke-linejoin', 'round');
+        element.setAttribute('data-ai-object', 'true');
+        element.setAttribute('data-x', '0');
+        element.setAttribute('data-y', '0');
+        element.setAttribute('data-scale', '1');
+        element.setAttribute('data-rotation', '0');
+        element.setAttribute('data-kind', element.tagName.toLowerCase());
+    }
+
+    // Применение перемещения, размера и поворота
+    function updateTransform(element) {
+        const x = Number(element.dataset.x || 0);
+        const y = Number(element.dataset.y || 0);
+        const scale = Number(element.dataset.scale || 1);
+        const angle = Number(element.dataset.rotation || 0);
+
+        element.setAttribute(
+            'transform',
+            `translate(${x} ${y}) rotate(${angle}) scale(${scale})`
+        );
+    }
+
+    // Координаты мыши относительно SVG-холста
+    function getSvgPoint(event) {
+        const point = canvas.createSVGPoint();
+
+        point.x = event.clientX;
+        point.y = event.clientY;
+
+        return point.matrixTransform(
+            canvas.getScreenCTM().inverse()
+        );
+    }
+
+    // Выделение объекта
+    function selectObject(element) {
+        if (selected) {
+            selected.removeAttribute('data-selected');
+        }
+
+        selected = element;
+
+        if (!selected) {
+            status.textContent = 'Объект не выбран.';
+            return;
+        }
+
+        selected.setAttribute('data-selected', 'true');
+
+        fill.value = selected.getAttribute('fill') || '#d48585';
+        stroke.value = selected.getAttribute('stroke') || '#593c49';
+
+        strokeWidth.value = selected.getAttribute('stroke-width') || 0;
+        size.value = Math.round(Number(selected.dataset.scale || 1) * 100);
+        rotation.value = Number(selected.dataset.rotation || 0);
+
+        strokeValue.textContent = strokeWidth.value + ' px';
+        sizeValue.textContent = size.value + '%';
+        rotationValue.textContent = rotation.value + '°';
+
+        textInput.value = selected.tagName.toLowerCase() === 'text'
+            ? selected.textContent
+            : '';
+
+        status.textContent = 'Выбран объект: ' + selected.dataset.kind;
+    }
+
+    // Создание фигуры
+    function addObject(type, x = 300, y = 190, color = '#d48585') {
+        let element;
+
+        if (type === 'circle') {
+            element = createSvgElement('circle', {
+                cx: 0,
+                cy: 0,
+                r: 50
+            });
+        }
+
+        if (type === 'rect') {
+            element = createSvgElement('rect', {
+                x: -50,
+                y: -50,
+                width: 100,
+                height: 100,
+                rx: 5
+            });
+        }
+
+        if (type === 'triangle') {
+            element = createSvgElement('polygon', {
+                points: '0,-60 60,50 -60,50'
+            });
+        }
+
+        if (type === 'star') {
+            element = createSvgElement('polygon', {
+                points: '0,-65 15,-20 62,-20 25,10 40,55 0,28 -40,55 -25,10 -62,-20 -15,-20'
+            });
+        }
+
+        if (type === 'text') {
+            element = createSvgElement('text', {
+                x: 0,
+                y: 0,
+                'font-size': 36,
+                'font-family': 'Arial, sans-serif',
+                'font-weight': 'bold',
+                'text-anchor': 'middle'
+            });
+
+            element.textContent = 'Ваш текст';
+        }
+
+        if (!element) return;
+
+        styleObject(element, color);
+
+        element.dataset.x = x;
+        element.dataset.y = y;
+
+        updateTransform(element);
+
+        canvas.appendChild(element);
+        selectObject(element);
+
+        status.textContent = 'Объект добавлен. Перемещайте его мышкой.';
+    }
+
+    // Добавление фигур по кнопкам
+    document.querySelectorAll('.ai-tool[data-add]').forEach(button => {
+        button.addEventListener('click', () => {
+            addObject(button.dataset.add);
+        });
+    });
+
+    // Перемещение объектов мышью и касанием
+    canvas.addEventListener('pointerdown', event => {
+        const target = event.target.closest('[data-ai-object]');
+
+        if (!target || !canvas.contains(target)) {
+            selectObject(null);
+            return;
+        }
+
+        selectObject(target);
+
+        const point = getSvgPoint(event);
+
+        dragging = {
+            element: target,
+            startX: point.x,
+            startY: point.y,
+            objectX: Number(target.dataset.x || 0),
+            objectY: Number(target.dataset.y || 0)
+        };
+
+        canvas.setPointerCapture(event.pointerId);
+    });
+
+    canvas.addEventListener('pointermove', event => {
+        if (!dragging) return;
+
+        const point = getSvgPoint(event);
+
+        const dx = point.x - dragging.startX;
+        const dy = point.y - dragging.startY;
+
+        dragging.element.dataset.x = dragging.objectX + dx;
+        dragging.element.dataset.y = dragging.objectY + dy;
+
+        updateTransform(dragging.element);
+    });
+
+    canvas.addEventListener('pointerup', () => {
+        dragging = null;
+    });
+
+    canvas.addEventListener('pointercancel', () => {
+        dragging = null;
+    });
+
+    // Изменение заливки
+    fill.addEventListener('input', () => {
+        if (!selected) return;
+
+        selected.setAttribute('fill', fill.value);
+    });
+
+    // Изменение цвета обводки
+    stroke.addEventListener('input', () => {
+        if (!selected) return;
+
+        selected.setAttribute('stroke', stroke.value);
+    });
+
+    // Изменение толщины обводки
+    strokeWidth.addEventListener('input', () => {
+        strokeValue.textContent = strokeWidth.value + ' px';
+
+        if (!selected) return;
+
+        selected.setAttribute('stroke-width', strokeWidth.value);
+    });
+
+    // Изменение размера
+    size.addEventListener('input', () => {
+        sizeValue.textContent = size.value + '%';
+
+        if (!selected) return;
+
+        selected.dataset.scale = Number(size.value) / 100;
+        updateTransform(selected);
+    });
+
+    // Изменение поворота
+    rotation.addEventListener('input', () => {
+        rotationValue.textContent = rotation.value + '°';
+
+        if (!selected) return;
+
+        selected.dataset.rotation = rotation.value;
+        updateTransform(selected);
+    });
+
+    // Изменение текста
+    textInput.addEventListener('input', () => {
+        if (!selected || selected.tagName.toLowerCase() !== 'text') return;
+
+        selected.textContent = textInput.value;
+    });
+
+    // Удаление выбранного объекта
+    deleteButton.addEventListener('click', () => {
+        if (!selected) {
+            status.textContent = 'Сначала выберите объект.';
+            return;
+        }
+
+        selected.remove();
+        selected = null;
+
+        status.textContent = 'Объект удалён.';
+    });
+
+    // Очистка холста
+    clearButton.addEventListener('click', () => {
+        canvas.replaceChildren();
+        selected = null;
+
+        status.textContent = 'Холст очищен.';
+    });
+
+    // Создание готовых композиций
+    function loadTemplate(type) {
+        canvas.replaceChildren();
+        selected = null;
+
+        if (type === 'poster') {
+            addObject('rect', 300, 190, '#f1e6d2');
+            canvas.lastChild.setAttribute('rx', 0);
+            canvas.lastChild.setAttribute('width', 600);
+            canvas.lastChild.setAttribute('height', 380);
+            canvas.lastChild.setAttribute('x', -300);
+            canvas.lastChild.setAttribute('y', -190);
+            canvas.lastChild.setAttribute('data-x', 300);
+            canvas.lastChild.setAttribute('data-y', 190);
+            updateTransform(canvas.lastChild);
+
+            addObject('circle', 190, 145, '#e28b65');
+            addObject('circle', 370, 230, '#354f52');
+            addObject('triangle', 300, 125, '#e6b94f');
+            addObject('text', 300, 320, '#354f52');
+            canvas.lastChild.textContent = 'GEOMETRIC ART';
+            canvas.lastChild.setAttribute('font-size', '25');
+        }
+
+        if (type === 'logo') {
+            addObject('circle', 300, 170, '#354f52');
+            addObject('star', 300, 170, '#f1c75b');
+            addObject('text', 300, 285, '#354f52');
+            canvas.lastChild.textContent = 'CREATIVE STUDIO';
+            canvas.lastChild.setAttribute('font-size', '25');
+        }
+
+        if (type === 'landscape') {
+            addObject('rect', 300, 190, '#b9dce4');
+            canvas.lastChild.setAttribute('width', 600);
+            canvas.lastChild.setAttribute('height', 380);
+            canvas.lastChild.setAttribute('x', -300);
+            canvas.lastChild.setAttribute('y', -190);
+            updateTransform(canvas.lastChild);
+
+            addObject('circle', 460, 80, '#f5c85b');
+            addObject('triangle', 190, 235, '#577d67');
+            addObject('triangle', 340, 235, '#759b79');
+            addObject('triangle', 490, 235, '#466c61');
+            addObject('rect', 300, 330, '#82b6a0');
+            canvas.lastChild.setAttribute('width', 600);
+            canvas.lastChild.setAttribute('height', 100);
+            canvas.lastChild.setAttribute('x', -300);
+            canvas.lastChild.setAttribute('y', -50);
+            updateTransform(canvas.lastChild);
+        }
+
+        selectObject(null);
+        status.textContent = 'Готовая композиция загружена. Вы можете изменить её.';
+    }
+
+    document.querySelectorAll('.ai-template[data-template]').forEach(button => {
+        button.addEventListener('click', () => {
+            loadTemplate(button.dataset.template);
+        });
+    });
+
+    // Сохранение результата в SVG
+    exportButton.addEventListener('click', () => {
+        const copy = canvas.cloneNode(true);
+
+        copy.querySelectorAll('[data-selected]').forEach(element => {
+            element.removeAttribute('data-selected');
+        });
+
+        copy.querySelectorAll('[data-ai-object]').forEach(element => {
+            element.removeAttribute('data-ai-object');
+            element.removeAttribute('data-x');
+            element.removeAttribute('data-y');
+            element.removeAttribute('data-scale');
+            element.removeAttribute('data-rotation');
+            element.removeAttribute('data-kind');
+        });
+
+        copy.setAttribute('xmlns', SVG_NS);
+
+        const svgText = new XMLSerializer().serializeToString(copy);
+
+        const blob = new Blob([svgText], {
+            type: 'image/svg+xml;charset=utf-8'
+        });
+
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+
+        link.href = url;
+        link.download = 'my-illustration.svg';
+
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+
+        URL.revokeObjectURL(url);
+
+        status.textContent = 'SVG-файл подготовлен для скачивания.';
+    });
+
+    status.textContent = 'Выберите шаблон или добавьте фигуру.';
+}
+
+                if (name === 'responsive') {
+                    const stage = document.getElementById('responsiveStage');
+                    const status = document.getElementById('responsiveStatus');
+                    const labels = {desktop: 'Широкий экран · 3 колонки', tablet: 'Планшет · 2 колонки', mobile: 'Телефон · 1 колонка'};
+                    modalBody.querySelectorAll('.device-btn').forEach(btn => btn.addEventListener('click', () => {
+                        stage.className = 'responsive-stage ' + btn.dataset.device;
+                        status.textContent = labels[btn.dataset.device];
+                        modalBody.querySelectorAll('.device-btn').forEach(item => item.classList.toggle('active', item === btn));
+                    }));
+                }
+            }
+            // =====================================
+// АНИМАЦИЯ ПОЯВЛЕНИЯ КАРТОЧЕК
+// =====================================
+
+const techCards = document.querySelectorAll('.tech-card');
+const techGrid = document.querySelector('.tech-grid');
+
+// Прячем карточки за экран и задаём каждой свою задержку
+techCards.forEach((card, index) => {
+    card.classList.add('card-pending');
+    card.style.setProperty('--enter-delay', `${index * 0.12}s`);
+
+    // Когда карточка долетела, убираем служебные классы,
+    // чтобы вернулись обычные эффекты при наведении
+    card.addEventListener('transitionend', event => {
+        if (event.propertyName === 'transform' && card.classList.contains('card-visible')) {
+            card.classList.remove('card-pending', 'card-visible');
+            card.style.removeProperty('--enter-delay');
+        }
+    });
+});
+
+// Следим за всей сеткой: когда она появилась на экране, запускаем перелёт
+const gridObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            techCards.forEach(card => card.classList.add('card-visible'));
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.2 });
+
+gridObserver.observe(techGrid);
+        })();
+    </script>
+ 
+</body>
+</html>
